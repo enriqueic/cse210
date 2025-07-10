@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/sandbox/Sandbox/Sandbox.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/sandbox/Sandbox/Sandbox.csproj",
       "projectName": "Sandbox",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/sandbox/Sandbox/Sandbox.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/sandbox/Sandbox/Sandbox.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/sandbox/Sandbox/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/sandbox/Sandbox/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

@@ -1,3 +1,4 @@
+//Enrique Ibarra for BYU-PW
 using System;
 
 class Program
@@ -41,6 +42,6 @@ class Program
             magicNumber = randomGenerator.Next(1, 101);
             Console.WriteLine("");
         }
-        while (userOption != "no"); // stretch                    
+        while (userOption != "no"); // stretch challenge                  
     }
 }

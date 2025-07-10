@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tq8jAU9+hxIr85Z9fTNYSSihORepcyPYZvrubAD/ZXwxVV7paBidUjO3WhffsNUKeaLZBURPoPGpLdaFLpEqAQ==",
+  "dgSpecHash": "oZ+szoz3Wqhdr+EIasPqV6yONVvSMO9YgxHefn5qrh7cImMAWd3N31i5Sj1OiM+yk6eWJGImUYR/zusSgJKd3w==",
   "success": true,
-  "projectFilePath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Resumes/Resumes.csproj",
+  "projectFilePath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Resumes/Resumes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

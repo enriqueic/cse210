@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/week07/ExerciseTracking/ExerciseTracking.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week07/ExerciseTracking/ExerciseTracking.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/week07/ExerciseTracking/ExerciseTracking.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week07/ExerciseTracking/ExerciseTracking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week07/ExerciseTracking/ExerciseTracking.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week07/ExerciseTracking/ExerciseTracking.csproj",
         "projectName": "ExerciseTracking",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week07/ExerciseTracking/ExerciseTracking.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week07/ExerciseTracking/ExerciseTracking.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week07/ExerciseTracking/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week07/ExerciseTracking/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/week06/Shapes/Shapes.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/Shapes/Shapes.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/week06/Shapes/Shapes.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/Shapes/Shapes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week06/Shapes/Shapes.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/Shapes/Shapes.csproj",
         "projectName": "Shapes",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week06/Shapes/Shapes.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/Shapes/Shapes.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week06/Shapes/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/Shapes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"
