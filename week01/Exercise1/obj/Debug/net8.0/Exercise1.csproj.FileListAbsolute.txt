@@ -1,0 +1,15 @@
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/bin/Debug/net8.0/Exercise1
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/bin/Debug/net8.0/Exercise1.deps.json
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/bin/Debug/net8.0/Exercise1.runtimeconfig.json
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/bin/Debug/net8.0/Exercise1.dll
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/bin/Debug/net8.0/Exercise1.pdb
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.GeneratedMSBuildEditorConfig.editorconfig
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.AssemblyInfoInputs.cache
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.AssemblyInfo.cs
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.csproj.CoreCompileInputs.cache
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.sourcelink.json
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.dll
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/refint/Exercise1.dll
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.pdb
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/Exercise1.genruntimeconfig.cache
+/home/enrique/Desktop/Csharp programming/cse210-ww-student-template/week01/Exercise1/obj/Debug/net8.0/ref/Exercise1.dll
