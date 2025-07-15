@@ -19,79 +19,72 @@ class Program
         myPrompts.Load();
         
         do
+        {
+            Console.WriteLine("Please select one of the following choice:");
+            Console.WriteLine("1. Write");
+            Console.WriteLine("2. Display");
+            Console.WriteLine("3. Load");
+            Console.WriteLine("4. Save");
+            Console.WriteLine("5. Add prompt");
+            Console.WriteLine("6. Quit");
+            userOption = Console.ReadLine();
+            Console.WriteLine();
+
+            if (userOption == "1")
             {
-                Console.WriteLine("Please select one of the following choice:");
-                Console.WriteLine("1. Write");
-                Console.WriteLine("2. Display");
-                Console.WriteLine("3. Load");
-                Console.WriteLine("4. Save");
-                Console.WriteLine("5. Add prompt");
-                Console.WriteLine("6. Quit");
-
-                userOption = Console.ReadLine();
-                Console.WriteLine();
-
-                if (userOption == "1")
+                String randomPrompt = myPrompts.GetRandomPrompt();
+                if (randomPrompt != "")
                 {
-                    String randomPrompt = myPrompts.GetRandomPrompt();
-                    if (randomPrompt != "")
+                    Console.WriteLine(randomPrompt);
+                    String entryText = Console.ReadLine();
+                    DateTime theCurrentTime = DateTime.Now;
+                    string dateText = theCurrentTime.ToShortDateString();
+                    Entry userEntry = new()
                     {
-                        Console.WriteLine(randomPrompt);
-
-                        String entryText = Console.ReadLine();
-                        DateTime theCurrentTime = DateTime.Now;
-                        string dateText = theCurrentTime.ToShortDateString();
-
-                        Entry userEntry = new()
-                        {
-                            _date = dateText,
-                            _prompt = randomPrompt,
-                            _text = entryText
-                        };
-                        Program.myJournal.AddEntry(userEntry);
-                    }
-                    Console.WriteLine("");
+                        _date = dateText,
+                        _prompt = randomPrompt,
+                        _text = entryText
+                    };
+                    Program.myJournal.AddEntry(userEntry);
                 }
-
-                if (userOption == "2")
-                {
-                    myJournal.DisplayAll();
-                    Console.WriteLine("Successfully displayed");
-                    Console.WriteLine("");
-                }
-
-                if (userOption == "3")
-                {
-                    myJournal.Load();
-                }
-
-                if (userOption == "4")
-                {
-                    myJournal.Save();
-                    Console.WriteLine();
-                }
-
-                if (userOption == "5")
-                {
-                    do
-                    {
-                        Console.WriteLine("Current prompts:");
-                        myPrompts.DisplayAll();
-                        Console.WriteLine("");
-                        Console.WriteLine("Add prompt? y/n");
-                        userOption2 = Console.ReadLine();
-                        if (userOption2 == "y")
-                        {
-                            Console.Write("New prompt: ");
-                            string prompt = Console.ReadLine();
-                            myPrompts.AddPrompts(prompt);
-                            myPrompts.Save();
-                        }
-                    }
-                    while (userOption2 != "n");
-                }
+                Console.WriteLine("");
             }
-            while (userOption != "6");
+            if (userOption == "2")
+            {
+                myJournal.DisplayAll();
+                Console.WriteLine("Successfully displayed");
+                Console.WriteLine("");
+            }
+            if (userOption == "3")
+            {
+                myJournal.Load();
+            }
+            if (userOption == "4")
+            {
+                myJournal.Save();
+                Console.WriteLine();
+            }
+            if (userOption == "5")
+            {
+                do
+                {
+                    Console.WriteLine("Current prompts:");
+                    myPrompts.DisplayAll();
+                    Console.WriteLine("");
+                    Console.WriteLine("Add prompt? y/n");
+                    userOption2 = Console.ReadLine();
+                    if (userOption2 == "y")
+                    {
+                        Console.Write("New prompt: ");
+                        string prompt = Console.ReadLine();
+                        myPrompts.AddPrompts(prompt);
+                        myPrompts.Save();
+                    }
+                }
+                while (userOption2 != "n");
+            }
+        }
+        while (userOption != "6");
     }
 
 }
