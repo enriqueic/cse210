@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eibar\\OneDrive\\Escritorio\\cse210\\week01\\Exercise2\\Exercise2.csproj": {}
+    "/home/enrique/cse210/week01/Exercise2/Exercise2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eibar\\OneDrive\\Escritorio\\cse210\\week01\\Exercise2\\Exercise2.csproj": {
+    "/home/enrique/cse210/week01/Exercise2/Exercise2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eibar\\OneDrive\\Escritorio\\cse210\\week01\\Exercise2\\Exercise2.csproj",
+        "projectUniqueName": "/home/enrique/cse210/week01/Exercise2/Exercise2.csproj",
         "projectName": "Exercise2",
-        "projectPath": "C:\\Users\\eibar\\OneDrive\\Escritorio\\cse210\\week01\\Exercise2\\Exercise2.csproj",
-        "packagesPath": "C:\\Users\\eibar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eibar\\OneDrive\\Escritorio\\cse210\\week01\\Exercise2\\obj\\",
+        "projectPath": "/home/enrique/cse210/week01/Exercise2/Exercise2.csproj",
+        "packagesPath": "/home/enrique/.nuget/packages/",
+        "outputPath": "/home/enrique/cse210/week01/Exercise2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eibar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/enrique/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

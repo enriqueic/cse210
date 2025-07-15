@@ -8,4 +8,16 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+<ItemGroup>
+    <Content Include="./journal*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+
+<ItemGroup>
+    <Content Include="./promptlist*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+
 </Project>

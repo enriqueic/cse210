@@ -39,7 +39,7 @@ public class Prompts()
     public void Load()
     {
         _prompts.Clear();
-        string myfile = "prompts.txt";
+        string myfile = @"promptlist.txt";
         string[] lines = System.IO.File.ReadAllLines(myfile);
 
         foreach (string line in lines)
@@ -53,7 +53,7 @@ public class Prompts()
 
     public void Save()
     {
-        string myfile = "prompts.txt";
+        string myfile = @"promptlist.txt";
         using (StreamWriter writer = new(myfile))
         {
             foreach (String prompt in _prompts)

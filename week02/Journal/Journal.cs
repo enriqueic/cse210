@@ -18,7 +18,7 @@ public class Journal
 
     public void Save()
     {
-        string myfile = "./journal.txt";
+        string myfile = @"journal.txt";
         using (StreamWriter writer = new(myfile))
         {
             foreach (Entry userEntry in _entries)
@@ -31,7 +31,7 @@ public class Journal
     public void Load()
     {
         _entries.Clear();
-        string myfile = "journal.txt";
+        string myfile = @"journal.txt";
         string[] lines = System.IO.File.ReadAllLines(myfile);
 
         foreach (string line in lines)
