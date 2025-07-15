@@ -1,6 +1,8 @@
 // Enrique Ibarra for BYU-PW
 // Exceeding requirements: made it so that it notes the user they have run out of prompts so they don't repeat.
 // Made it so that prompts are also loaded from a .txt file and the user can add to them and view them from the menu.
+//
+// Correction: added instructions in the Journal.csproj so that the txt files are copied after compiling.
 
 using System;
 using System.Runtime.CompilerServices;
