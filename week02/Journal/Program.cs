@@ -16,8 +16,6 @@ class Program
         Console.WriteLine("Welcome to the Journal Program!");
         string userOption = "";
         string userOption2 = "";
-        using (StreamWriter w = File.AppendText("journal.txt"))
-        using (StreamWriter w2 = File.AppendText("prompts.txt"))
         myPrompts.Load();
         
         do
