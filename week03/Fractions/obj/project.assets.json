@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week03/Fractions/Fractions.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week03/Fractions/Fractions.csproj",
       "projectName": "Fractions",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week03/Fractions/Fractions.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week03/Fractions/Fractions.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week03/Fractions/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week03/Fractions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

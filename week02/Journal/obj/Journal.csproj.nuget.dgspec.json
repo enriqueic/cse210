@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Journal/Journal.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Journal/Journal.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Journal/Journal.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj",
         "projectName": "Journal",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Journal/Journal.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Journal/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"

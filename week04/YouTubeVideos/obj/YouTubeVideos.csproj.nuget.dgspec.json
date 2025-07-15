@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/YouTubeVideos/YouTubeVideos.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/week04/YouTubeVideos/YouTubeVideos.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/YouTubeVideos/YouTubeVideos.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/week04/YouTubeVideos/YouTubeVideos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/YouTubeVideos/YouTubeVideos.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week04/YouTubeVideos/YouTubeVideos.csproj",
         "projectName": "YouTubeVideos",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/YouTubeVideos/YouTubeVideos.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week04/YouTubeVideos/YouTubeVideos.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/YouTubeVideos/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week04/YouTubeVideos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"

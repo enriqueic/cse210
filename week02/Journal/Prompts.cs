@@ -6,17 +6,60 @@ public class Prompts()
 
     public String GetRandomPrompt()
     {
-        _prompts.Add("Who was the most interesting person I interacted with today?");
-        _prompts.Add("What was the best part of my day?");
-        _prompts.Add("How did I see the hand of the Lord in my life today?");
-        _prompts.Add("What was the strongest emotion I had today?");
-        _prompts.Add("If I had one thing I could do over today, what would it be?");
-        _prompts.Add("What is a valuable lesson I learned today?");
-        _prompts.Add("What is something I did today that will be worth remembering?");
-        _prompts.Add("Describe in detail something I did today");
 
-        Random randomGenerator = new Random();
-        int randomNumber = randomGenerator.Next(1, _prompts.Count);
-        return _prompts[randomNumber - 1];
+        if (_prompts.Count() != 0)
+        {
+            Random randomGenerator = new Random();
+            int randomNumber = randomGenerator.Next(1, _prompts.Count);
+            string randomPrompt = _prompts[randomNumber - 1];
+            _prompts.RemoveAt(randomNumber - 1);
+
+            return randomPrompt;
+        }
+        else
+        {
+            Console.WriteLine("Out of prompts");
+            return "";
+        }
+    }
+
+    public void DisplayAll()
+    {
+        foreach (String prompt in _prompts)
+        {
+            Console.WriteLine(prompt);
+        }
+    }
+
+    public void AddPrompts(String prompt)
+    {
+        _prompts.Add(prompt);
+    }
+
+    public void Load()
+    {
+        _prompts.Clear();
+        string myfile = "prompts.txt";
+        string[] lines = System.IO.File.ReadAllLines(myfile);
+
+        foreach (string line in lines)
+        {
+            if (line != "")
+            {
+                AddPrompts(line);
+            }
+        }
+    }
+
+    public void Save()
+    {
+        string myfile = "prompts.txt";
+        using (StreamWriter writer = new(myfile))
+        {
+            foreach (String prompt in _prompts)
+            {
+                writer.WriteLine(prompt);
+            }
+        }
     }
 }

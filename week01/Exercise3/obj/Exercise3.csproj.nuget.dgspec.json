@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise3/Exercise3.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise3/Exercise3.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise3/Exercise3.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise3/Exercise3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise3/Exercise3.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise3/Exercise3.csproj",
         "projectName": "Exercise3",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise3/Exercise3.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise3/Exercise3.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise3/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"

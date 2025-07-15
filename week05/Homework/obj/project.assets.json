@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Homework/Homework.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week05/Homework/Homework.csproj",
       "projectName": "Homework",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Homework/Homework.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week05/Homework/Homework.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Homework/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week05/Homework/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

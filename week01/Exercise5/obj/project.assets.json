@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise5/Exercise5.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise5/Exercise5.csproj",
       "projectName": "Exercise5",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise5/Exercise5.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise5/Exercise5.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week01/Exercise5/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week01/Exercise5/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

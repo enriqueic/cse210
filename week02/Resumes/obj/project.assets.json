@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Resumes/Resumes.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week02/Resumes/Resumes.csproj",
       "projectName": "Resumes",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Resumes/Resumes.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Resumes/Resumes.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week02/Resumes/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Resumes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

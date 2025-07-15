@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Mindfulness/Mindfulness.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week05/Mindfulness/Mindfulness.csproj",
       "projectName": "Mindfulness",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Mindfulness/Mindfulness.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week05/Mindfulness/Mindfulness.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week05/Mindfulness/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week05/Mindfulness/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

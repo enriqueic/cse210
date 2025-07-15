@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/EternalQuest/EternalQuest.csproj",
+      "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week06/EternalQuest/EternalQuest.csproj",
       "projectName": "EternalQuest",
-      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/EternalQuest/EternalQuest.csproj",
+      "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week06/EternalQuest/EternalQuest.csproj",
       "packagesPath": "/home/enrique/.nuget/packages/",
-      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week06/EternalQuest/obj/",
+      "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week06/EternalQuest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/enrique/.nuget/NuGet/NuGet.Config"

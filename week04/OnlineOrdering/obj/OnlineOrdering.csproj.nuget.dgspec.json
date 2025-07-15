@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/OnlineOrdering/OnlineOrdering.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/week04/OnlineOrdering/OnlineOrdering.csproj": {}
   },
   "projects": {
-    "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/OnlineOrdering/OnlineOrdering.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/week04/OnlineOrdering/OnlineOrdering.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/OnlineOrdering/OnlineOrdering.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week04/OnlineOrdering/OnlineOrdering.csproj",
         "projectName": "OnlineOrdering",
-        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/OnlineOrdering/OnlineOrdering.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week04/OnlineOrdering/OnlineOrdering.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/cse210/week04/OnlineOrdering/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week04/OnlineOrdering/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"

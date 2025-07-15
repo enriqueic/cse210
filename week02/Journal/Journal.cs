@@ -18,8 +18,7 @@ public class Journal
 
     public void Save()
     {
-        string myfile = "journal.txt";
-
+        string myfile = "./journal.txt";
         using (StreamWriter writer = new(myfile))
         {
             foreach (Entry userEntry in _entries)
@@ -32,25 +31,18 @@ public class Journal
     public void Load()
     {
         _entries.Clear();
-        string myfile = @"journal.txt";
+        string myfile = "journal.txt";
         string[] lines = System.IO.File.ReadAllLines(myfile);
 
         foreach (string line in lines)
         {
-            if (line != null)
+            if (line != "")
             {
-                string[] parts = line.Split("||");
-
-                
-                foreach (string part in parts)
-                {
-                    Console.WriteLine(part);
-                }
-                
+                string[] parts = line.Split(" || ");
                 string date = parts[0];
                 string prompt = parts[1];
                 string text = parts[2];
-                prompt = prompt[1..^1];
+                prompt = prompt[8..^0];
                 date = date[6..^0];
                 Entry _newEntry = new()
                 {
@@ -58,9 +50,9 @@ public class Journal
                     _prompt = prompt,
                     _text = text
                 };
-
                 AddEntry(_newEntry);
             }
+            Console.WriteLine("Entry loaded");
         }
     }
 }
