@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 class Program
 {
     static void Main(string[] args)
@@ -30,7 +31,7 @@ class Program
 
         foreach (Scripture scripture in scriptureList)
         {
-            while (!scripture.IsCompletelyHidden() || userQuit.ToLower() != "quit")
+            do
             {
                 Console.Clear();
                 Console.WriteLine("Scripture:");
@@ -38,13 +39,23 @@ class Program
                 Console.WriteLine("");
                 Console.WriteLine("Press Enter to hide some words, or type 'quit' to exit.");
                 userQuit = Console.ReadLine();
-                
                 if (userQuit.ToLower() == "quit")
                 {
                     break;
                 }
                 scripture.HideRandomWords(difficultyLevel);
-            }
+                if (scripture.IsCompletelyHidden())
+                {
+                    Console.Clear();
+                    Console.WriteLine("Scripture:");
+                    Console.WriteLine(scripture.GetDisplayText());
+                    Console.WriteLine("");
+                    Console.WriteLine("Congratulations! You have memorized the scripture.");
+                    Console.WriteLine("Press Enter to continue to the next scripture or type 'quit' to exit.");
+                    Console.ReadLine();
+                    break;
+                }
+            }while (!scripture.IsCompletelyHidden() || userQuit.ToLower() != "quit");
         }
     }
 }
