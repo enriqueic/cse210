@@ -26,16 +26,24 @@ class Program
             _ => 2 // Default to easy if input is invalid
         };
 
+        String userQuit = "";
+
         foreach (Scripture scripture in scriptureList)
         {
-            while (!scripture.IsCompletelyHidden())
+            while (!scripture.IsCompletelyHidden() || userQuit.ToLower() != "quit")
             {
                 Console.Clear();
                 Console.WriteLine("Scripture:");
                 Console.WriteLine(scripture.GetDisplayText());
                 Console.WriteLine("");
-                Console.WriteLine("Press Enter to hide some words...");
-                Console.ReadLine();
+                Console.WriteLine("Press Enter to hide some words, or type 'quit' to exit.");
+                userQuit = Console.ReadLine();
+                
+                if (userQuit.ToLower() == "quit")
+                {
+                    break;
+                }
+
                 scripture.HideRandomWords(difficultyLevel);
             }
         }
