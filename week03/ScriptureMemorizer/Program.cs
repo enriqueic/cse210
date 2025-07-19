@@ -5,57 +5,51 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-class Program
-{
-    static void Main(string[] args)
-    {
-        List<Scripture> scriptureList =
-        [
-            new Scripture(new Reference("Proverbs", 3, 5, 6), "Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."),
+List<Scripture> scriptureList =
+[
+new Scripture(new Reference("Proverbs", 3, 5, 6), "Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."),
             new Scripture(new Reference("2 Nephi", 2, 25), "Adam fell that men might be; and men are, that they might have joy."),
             new Scripture(new Reference("Mosiah", 2, 17), "When ye are in the service of your fellow beings ye are only in the service of your God."),
         ];
 
-        Console.WriteLine("Welcome to the Scripture Memorizer!");
-        Console.WriteLine("You will be shown a series of scriptures. Try to memorize while we hide some words");
-        Console.Write("Press Enter the difficulty level (1 = easy, 2 = medium, 3 = hard): ");
-        int difficultyLevel = Console.ReadLine() switch
-        {
-            "1" => 1,
-            "2" => 2, 
-            "3" => 3, 
-            _ => 2 // Default to easy if input is invalid
-        };
+Console.WriteLine("Welcome to the Scripture Memorizer!");
+Console.WriteLine("You will be shown a series of scriptures. Try to memorize while we hide some words");
+Console.Write("Press Enter the difficulty level (1 = easy, 2 = medium, 3 = hard): ");
+int difficultyLevel = Console.ReadLine() switch
+{
+    "1" => 1,
+    "2" => 2,
+    "3" => 3,
+    _ => 2 // Default to easy if input is invalid
+};
 
-        String userQuit = "";
+String userQuit = "";
 
-        foreach (Scripture scripture in scriptureList)
+foreach (Scripture scripture in scriptureList)
+{
+    do
+    {
+        Console.Clear();
+        Console.WriteLine("Scripture:");
+        Console.WriteLine(scripture.GetDisplayText());
+        Console.WriteLine("");
+        Console.WriteLine("Press Enter to hide some words, or type 'quit' to exit.");
+        userQuit = Console.ReadLine();
+        if (userQuit.ToLower() == "quit")
         {
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("Scripture:");
-                Console.WriteLine(scripture.GetDisplayText());
-                Console.WriteLine("");
-                Console.WriteLine("Press Enter to hide some words, or type 'quit' to exit.");
-                userQuit = Console.ReadLine();
-                if (userQuit.ToLower() == "quit")
-                {
-                    break;
-                }
-                scripture.HideRandomWords(difficultyLevel);
-                if (scripture.IsCompletelyHidden())
-                {
-                    Console.Clear();
-                    Console.WriteLine("Scripture:");
-                    Console.WriteLine(scripture.GetDisplayText());
-                    Console.WriteLine("");
-                    Console.WriteLine("Congratulations! You have memorized the scripture.");
-                    Console.WriteLine("Press Enter to continue to the next scripture or type 'quit' to exit.");
-                    Console.ReadLine();
-                    break;
-                }
-            }while (!scripture.IsCompletelyHidden() || userQuit.ToLower() != "quit");
+            break;
         }
-    }
+        scripture.HideRandomWords(difficultyLevel);
+        if (scripture.IsCompletelyHidden())
+        {
+            Console.Clear();
+            Console.WriteLine("Scripture:");
+            Console.WriteLine(scripture.GetDisplayText());
+            Console.WriteLine("");
+            Console.WriteLine("Congratulations! You have memorized the scripture.");
+            Console.WriteLine("Press Enter to continue to the next scripture or type 'quit' to exit.");
+            Console.ReadLine();
+            break;
+        }
+    } while (!scripture.IsCompletelyHidden() || !userQuit.Equals("quit", StringComparison.CurrentCultureIgnoreCase));
 }
