@@ -35,17 +35,25 @@ public class Scripture
 
     public void HideRandomWords(int count)
     {
-        var visibleWords = _wordList.Where(w => !w.IsHidden()).ToList();
+        List<Word> visibleWords = new();
+        foreach (Word word in _wordList)
+        {
+            if (!word.IsHidden())
+            {
+                visibleWords.Add(word);
+            }
+        }
+
         Random random = new();
         int wordsToHide = Math.Min(count, visibleWords.Count);
 
         for (int i = 0; i < wordsToHide; i++)
         {
             int index = random.Next(_wordList.Count);
-            Word word = _wordList[index];
-            if (!word.IsHidden())
+            Word wordToHide = _wordList[index];
+            if (!wordToHide.IsHidden())
             {
-                word.Hide();
+                wordToHide.Hide();
             }
             else
             {
