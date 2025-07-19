@@ -43,7 +43,6 @@ class Program
                 {
                     break;
                 }
-
                 scripture.HideRandomWords(difficultyLevel);
             }
         }
