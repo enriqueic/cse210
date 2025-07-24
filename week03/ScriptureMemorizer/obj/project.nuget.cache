@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/vcbYjBIcm6Uw4xYSMokDVgwXHzwBWZz5P6qJMexA7gNf/HjKiBCERDuux+lORK+YVp/RuXnzyI8twEZyqG1cQ==",
+  "dgSpecHash": "fpUJsJmgg98DbLgONzXwBBIvN0SoZ5GGDuXQzPqTfuoW7jHaL6QQFibX8EDWkIcXKndJORu2Ve4qqZfRKC6u8Q==",
   "success": true,
-  "projectFilePath": "/home/enrique/cse210/week03/ScriptureMemorizer/ScriptureMemorizer.csproj",
+  "projectFilePath": "/home/enrique/Desktop/Csharp programming/cse210/week03/ScriptureMemorizer/ScriptureMemorizer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

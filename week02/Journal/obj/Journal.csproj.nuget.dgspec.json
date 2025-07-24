@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/enrique/cse210/week02/Journal/Journal.csproj": {}
+    "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj": {}
   },
   "projects": {
-    "/home/enrique/cse210/week02/Journal/Journal.csproj": {
+    "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/enrique/cse210/week02/Journal/Journal.csproj",
+        "projectUniqueName": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj",
         "projectName": "Journal",
-        "projectPath": "/home/enrique/cse210/week02/Journal/Journal.csproj",
+        "projectPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/Journal.csproj",
         "packagesPath": "/home/enrique/.nuget/packages/",
-        "outputPath": "/home/enrique/cse210/week02/Journal/obj/",
+        "outputPath": "/home/enrique/Desktop/Csharp programming/cse210/week02/Journal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/enrique/.nuget/NuGet/NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
