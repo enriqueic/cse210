@@ -17,6 +17,12 @@ class Activity
         Console.WriteLine(_description);
         Console.WriteLine("");
         Console.Write($"How long, in seconds, how you like your session? ");
+
+        _duration = int.Parse(Console.ReadLine());
+
+        Console.Clear();
+        Console.WriteLine("Get ready....");
+        ShowSpinner(2);
     }
 
     public void DisplayEndingMessage()

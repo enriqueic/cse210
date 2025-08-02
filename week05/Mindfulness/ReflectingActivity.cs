@@ -36,7 +36,9 @@ class ReflectingActivity : Activity
     {
         Random random = new Random();
         int index = random.Next(_questions.Count);
-        return _questions[index];
+        string question = _questions[index];
+        _questions.RemoveAt(index); // Exceeding requirements
+        return question;
     }
 
     private void DisplayPrompt()
@@ -66,11 +68,6 @@ class ReflectingActivity : Activity
     public void Run()
     {
         DisplayStartingMessage();
-        _duration = int.Parse(Console.ReadLine());
-        Console.Clear();
-        Console.WriteLine("Get ready...");
-        ShowSpinner(4);
-
         DisplayPrompt();
         DisplayQuestion();
         DisplayEndingMessage();

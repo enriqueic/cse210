@@ -7,11 +7,6 @@ class BreathingActivity : Activity
     public void Run()
     {
         DisplayStartingMessage();
-        _duration = int.Parse(Console.ReadLine());
-
-        Console.Clear();
-        Console.WriteLine("Get ready....");
-        ShowSpinner(2);
 
         int fullCycles = _duration / 10;
         int remainder = _duration % 10;

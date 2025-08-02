@@ -45,11 +45,6 @@ class ListingActivity : Activity
     public void Run()
     {
         DisplayStartingMessage();
-        _duration = int.Parse(Console.ReadLine());
-        Console.Clear();
-
-        Console.WriteLine("Get ready....");
-        ShowSpinner(4);
 
         _count = GetListFromUser().Count;
 
