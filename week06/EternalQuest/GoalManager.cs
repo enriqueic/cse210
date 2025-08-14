@@ -49,7 +49,7 @@ public class GoalManager
             }
             else
             {
-                Console.WriteLine("Incorrect function. Please try again")
+                Console.WriteLine("Incorrect function. Please try again");
             }
 
         } while (choice != 6);
