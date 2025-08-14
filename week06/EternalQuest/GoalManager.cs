@@ -216,7 +216,6 @@ public class GoalManager
 
     public void DisplayPlayerInfo()
     {
-        Console.WriteLine();
         Console.WriteLine($"You have {_score} points.");
         Console.WriteLine();
     }
