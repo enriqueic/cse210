@@ -19,7 +19,7 @@ public class SimpleGoal : Goal
     }
     public override string GetStringRepresentation()
     {
-        return $"SimpleGoal:{_name}:{_description}:{_points}:{_isComplete}";
+        return $"SimpleGoal:{_name}:{_description},{_points},{_isComplete}";
     }
 
     public override void RecordEvent()

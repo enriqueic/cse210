@@ -47,7 +47,7 @@ public class GoalManager
             {
                 RecordEvent();
             }
-            else
+            else if (choice != 6)
             {
                 Console.WriteLine("Incorrect function. Please try again");
             }
