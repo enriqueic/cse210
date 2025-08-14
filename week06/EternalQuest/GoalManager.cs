@@ -138,67 +138,67 @@ public class GoalManager
         Console.WriteLine();
     }
 
-public void LoadGoals()
-{
-    Console.WriteLine();
-    Console.Write("Enter the filename: ");
-    string filename = Console.ReadLine();
-
-    _goals = new List<Goal>();
-
-    using (StreamReader reader = new StreamReader(filename))
+    public void LoadGoals()
     {
-        string line;
-        int lineNumber = 0;
+        Console.WriteLine();
+        Console.Write("Enter the filename: ");
+        string filename = Console.ReadLine();
 
-        while ((line = reader.ReadLine()) != null)
+        _goals = new List<Goal>();
+
+        using (StreamReader reader = new StreamReader(filename))
         {
-            if (lineNumber == 0)
+            string line;
+            int lineNumber = 0;
+
+            while ((line = reader.ReadLine()) != null)
             {
-                _score = int.Parse(line);
+                if (lineNumber == 0)
+                {
+                    _score = int.Parse(line);
+                }
+                else
+                {
+                    string[] parts = line.Split(":");
+
+                    string goalType = parts[0];
+                    string name = parts[1];
+                    string description = parts[2];
+                    int points = int.Parse(parts[3]);
+
+                    if (goalType == "SimpleGoal")
+                    {
+                        bool isComplete = bool.Parse(parts[4]);
+
+                        SimpleGoal simpleGoal = new SimpleGoal(name, description, points);
+                        simpleGoal.SetIsComplete(isComplete);
+                        _goals.Add(simpleGoal);
+                    }
+                    else if (goalType == "EternalGoal")
+                    {
+                        EternalGoal eternalGoal = new EternalGoal(name, description, points);
+                        _goals.Add(eternalGoal);
+                    }
+                    else if (goalType == "ChecklistGoal")
+                    {
+                        int bonus = int.Parse(parts[4]);
+                        int target = int.Parse(parts[5]);
+                        int amountCompleted = int.Parse(parts[6]);
+
+                        ChecklistGoal checklistGoal = new ChecklistGoal(name, description, points, target, bonus);
+                        checklistGoal.SetAmountCompleted(amountCompleted);
+                        _goals.Add(checklistGoal);
+                    }
+                }
+
+                lineNumber++;
             }
-            else
-            {
-                string[] parts = line.Split(":");
-
-                string goalType = parts[0];
-                string name = parts[1];
-                string description = parts[2];
-                int points = int.Parse(parts[3]);
-
-                if (goalType == "SimpleGoal")
-                {
-                    bool isComplete = bool.Parse(parts[4]);
-
-                    SimpleGoal simpleGoal = new SimpleGoal(name, description, points);
-                    simpleGoal.SetIsComplete(isComplete);
-                    _goals.Add(simpleGoal);
-                }
-                else if (goalType == "EternalGoal")
-                {
-                    EternalGoal eternalGoal = new EternalGoal(name, description, points);
-                    _goals.Add(eternalGoal);
-                }
-                else if (goalType == "ChecklistGoal")
-                {
-                    int bonus = int.Parse(parts[4]);
-                    int target = int.Parse(parts[5]);
-                    int amountCompleted = int.Parse(parts[6]);
-
-                    ChecklistGoal checklistGoal = new ChecklistGoal(name, description, points, target, bonus);
-                    checklistGoal.SetAmountCompleted(amountCompleted);
-                    _goals.Add(checklistGoal);
-                }
-            }
-
-            lineNumber++;
         }
-    }
 
-    Console.WriteLine();
-    Console.Write("Your goals have been loaded successfully.");
-    Console.WriteLine();
-}
+        Console.WriteLine();
+        Console.Write("Your goals have been loaded successfully.");
+        Console.WriteLine();
+    }
 
     public void RecordEvent()
     {
