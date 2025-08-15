@@ -13,7 +13,7 @@ public class SimpleGoal : Goal
     public override string GetDetailsString()
     {
         if (_isComplete)
-            return $"[X] {_name}({_description}) - [{_points} points]";
+            return $"[X] {_name} ({_description})";
         else
             return base.GetDetailsString();
     }

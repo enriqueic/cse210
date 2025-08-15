@@ -17,9 +17,9 @@ public class ChecklistGoal : Goal
     public override string GetDetailsString()
     {
         if(_amountCompleted == _target)
-            return $"[X] {_name}({_description}) -- Currently completed: {_amountCompleted}/{_target} - [{_points} points] + [{_bonus} bonus]";
+            return $"[X] {_name} ({_description}) — Currently completed: {_amountCompleted}/{_target}";
         else
-            return $"[ ] {_name}({_description}) -- Currently completed: {_amountCompleted}/{_target} - [{_points} points] + [{_bonus} bonus]";
+            return $"[ ] {_name} ({_description}) — Currently completed: {_amountCompleted}/{_target}";
     }
     public override string GetStringRepresentation()
     {
