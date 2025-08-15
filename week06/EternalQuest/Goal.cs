@@ -15,7 +15,7 @@ public abstract class Goal
     }
     public virtual string GetDetailsString()
     {
-        return $"[ ] {_name}({_description}) - [{_points} points]";
+        return $"[ ] {_name}({_description}) — [{_points} points]";
     }
     public virtual int GetPoints()
     {
